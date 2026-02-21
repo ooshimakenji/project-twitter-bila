@@ -1,8 +1,6 @@
-import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
-
 export const tweetsData = [   
     {
-        handle: `@Birongui 💎`,
+        handle: `@Birongui 👎`,
         profilePic: `/images/bilaface1.png`,
         likes: 27,
         retweets: 10,
@@ -10,7 +8,7 @@ export const tweetsData = [
         replies: [],
         isLiked: false,
         isRetweeted: false,
-        uuid: uuidv4(),
+        uuid: "d4e7f1a2-8b3c-4f5e-9a6d-1c2e3f4a5b6c",
     },    
     {
         handle: `@Billie  ✅`,
@@ -32,7 +30,7 @@ export const tweetsData = [
         ],
         isLiked: false,
         isRetweeted: false,
-        uuid: uuidv4(),
+        uuid: "7a1b2c3d-4e5f-6789-abcd-ef0123456789",
     },
         {
         handle: `@CodeWithBila12`,
@@ -49,11 +47,11 @@ export const tweetsData = [
            {
                 handle: `@Bossbili 🐕`,
                 profilePic: `/images/lilbila.png`,
-                tweetText: `Doesn't matter the language—as long as you're wagging and coding! 🐾💻`,
+                tweetText: `Doesn't matter the language—as long as you're wagging and coding! 🐾💋`,
             },
         ],
         isLiked: false,
         isRetweeted: false,
-        uuid: uuidv4(),
+        uuid: "b9c8d7e6-f5a4-3210-fedc-ba9876543210",
     },     
 ]
